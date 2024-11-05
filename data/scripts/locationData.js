@@ -55,3 +55,8 @@ const locationsArray = [
     "Wisconsin",
     "Wyoming"
 ]
+
+
+for( i = 0; i< locationsArray.length; i++){
+    console.log(locationsArray[i])
+}

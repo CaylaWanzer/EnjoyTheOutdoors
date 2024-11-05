@@ -1,3 +1,6 @@
+
+/* HOME PAGE CSS    */
+
 body {
     background-color: rgb(105, 114, 103);
     color: rgb(23, 37, 23);
@@ -70,3 +73,24 @@ p {
 #btn {
     text-align: center;
 }
+
+/* PARKS PAGE CSS*/
+
+#filters{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
