@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(105, 114, 103);
+    color: rgb(23, 37, 23);
+}
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer {
+    margin-top: 150px;
+    width: 2000px;
+    padding: 100px;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.banner {
+    
+    text-align: center;
+}
+#hike{
+    /* align-items: center; */
+    width: 1100px;
+    height: 250px;
+}
+ .d-block {
+    width: 500px;
+    height: 600px;
+    /* padding: 100px; */
+}
+.monthlyMountain img {
+    
+    width: 1300px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+.monthlyMountain{
+    text-align: center;
+}
+p {
+    text-align: center;
+    padding: 50px;
+    font-size: 150%;
+}
+#homebtn {
+    text-align: center;
+    background
+    
+}
+.selected {
+    background-color: darkgreen;
+    text-decoration: none;
+}
+.btn {
+    background-color: rgb(32, 49, 32);
+    color: rgb(249, 253, 251);
+    border: 1px solid white;
+    margin-left: 1rem;
+
+
+}
+#btn a:hover,
+.btn:active,
+.btn:hover {
+    background-color: rgb(33, 87, 33);
+    color: rgb(5, 24, 12);
+    border: 1px solid white;
+    
+    
+}
+#btn {
+    text-align: center;
+}
