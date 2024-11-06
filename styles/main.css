@@ -74,12 +74,17 @@ p {
     text-align: center;
 }
 
+
+
 /* PARKS PAGE CSS*/
 
 #filters{
     text-align: center;
     
 }
+
+
+
 
 /* MOUNTAINS PAGE CSS*/
 
@@ -106,12 +111,6 @@ p {
 .res{
     text-align: center;
 }
-/* #mainSelect,
-.res{
-    text-align: center;
-    align-items: center;
-} */
-
 #foot{
     position: fixed;
     bottom: 0;
