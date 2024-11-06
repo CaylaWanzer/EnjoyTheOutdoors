@@ -4,6 +4,12 @@
 body {
     background-color: rgb(105, 114, 103);
     color: rgb(23, 37, 23);
+    padding-bottom: 18rem;
+    padding-top: 9rem;
+}
+nav.navbar {
+    position: fixed;
+    top: 0;
 }
 h1 {
     text-align: center;
@@ -79,8 +85,21 @@ p {
 /* PARKS PAGE CSS*/
 
 #filters{
-    text-align: center;
     
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+#saftey{
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 1rem;
+}
+#pic{
+    border-radius: 1rem;
 }
 
 
@@ -104,13 +123,20 @@ p {
 
 }
 #results{
-    
+    margin: auto;
     background-color: rgb(186, 197, 186);
     width: 600px;
+    border-radius: 1rem;
 }
-.res{
+.tips{
+    margin: auto;
+    background-color: rgb(186, 197, 186);
+    width: 800px; 
+    border-radius: 1rem;
+}
+/* .res{
     text-align: center;
-}
+} */
 #foot{
     position: fixed;
     bottom: 0;
@@ -121,7 +147,21 @@ p {
     color: #fff;
 
 }
-
+#parkTypeSelect{
+    border-radius: 0.50rem;
+    width: 200px;
+    height: 50px;
+}
+#parkLocationSelect{
+    border-radius: 0.50rem;
+    width: 200px;
+    height: 50px;
+}
+#filterButton{
+    border-radius: 0.50rem;
+    width: 80px;
+    height: 40px; 
+}
 
 
 
