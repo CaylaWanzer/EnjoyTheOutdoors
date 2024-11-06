@@ -9,14 +9,14 @@ h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.footer {
+/* .footer {
     margin-top: 150px;
     width: 2000px;
     padding: 100px;
     background: #333;
     color: #efefef;
     display: flex;
-}
+} */
 .banner {
     
     text-align: center;
@@ -81,18 +81,47 @@ p {
     
 }
 
+/* MOUNTAINS PAGE CSS*/
 
+#mntSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+#mountainSelect{
+    
+    border-radius: 0.50rem;
+    width: 200px;
+    height: 50px;
 
-
-
+}
+#results{
+    
+    background-color: rgb(186, 197, 186);
+    width: 600px;
+}
+.res{
+    text-align: center;
+}
+/* #mainSelect,
+.res{
+    text-align: center;
+    align-items: center;
+} */
 
 #foot{
-    /* position: fixed; */
+    position: fixed;
     bottom: 0;
+    width: 100%;
+    background-color: #333;
 }
+#foot p{
+    color: #fff;
 
-
-
+}
 
 
 
