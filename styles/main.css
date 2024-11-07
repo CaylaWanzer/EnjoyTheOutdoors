@@ -190,4 +190,44 @@ p {
     border-radius: 0.50rem;
     padding: 5px;
 }
+/* ABOUT US CSS PAGE */
 
+#block1 {
+    margin: auto;
+    background-color: rgb(186, 197, 186);
+    width: 1000px;
+    border-radius: 1rem;  
+    padding: 20px;  
+}
+#block2 {
+    margin: auto;
+    background-color: rgb(186, 197, 186);
+    width: 1000px;
+    border-radius: 1rem;  
+    padding: 20px;  
+}
+#block3 {
+    margin: auto;
+    background-color: rgb(186, 197, 186);
+    width: 1000px;
+    border-radius: 1rem;  
+    padding: 20px;  
+}
+#block4 {
+    margin: auto;
+    background-color: rgb(186, 197, 186);
+    width: 1000px;
+    border-radius: 1rem;  
+    padding: 20px;  
+}
+#block5 {
+    margin: auto;
+    background-color: rgb(186, 197, 186);
+    width: 1000px;
+    border-radius: 1rem;  
+    padding: 20px;  
+}
+#foot svg{
+
+    height: 1.0em;
+}
