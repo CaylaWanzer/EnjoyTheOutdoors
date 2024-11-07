@@ -13,7 +13,19 @@ function addLocation(text, target) {
 
 function Park(parkObject){
     const e = document.createElement("div");
-    e.innerHTML = parkObject.LocationName;
+    e.innerHTML = `
+        LocationID: "${parkObject.LocationID}" <br>
+        LocationName: "${parkObject.LocationName}"<br>
+        Address: "${parkObject.Address}"<br>
+        City: "${parkObject.City}"<br>
+        State: "${parkObject.State}"<br>
+        ZipCode: ${parkObject.ZipCode}<br>
+        Phone: "${parkObject.Phone}"<br>
+        Fax: "${parkObject.Fax}"<br>
+        Latitude: ${parkObject.Latitude}<br>
+        Longitude: ${parkObject.Longitude}<br>
+        <hr>
+    `;
     return e;
 }
 
@@ -31,9 +43,11 @@ function renderPark(){
     if(selectedLocation){
         filtered = filtered.filter(p=>p.State.toLowerCase() === selectedLocation.toLowerCase())        
     }
+
     filtered.forEach( p => results.appendChild(Park(p)));
+    
     if(filtered.length < 1){
-        results.innerHTML = "No results found matching the filter.";
+        results.innerHTML = "No results found.";
     }
 }
 
@@ -43,7 +57,7 @@ function Content() {
     const results = document.getElementById("results");
     parkTypesArray.forEach(parkTypeName => addPark(parkTypeName, parkTypeSelect));
     locationsArray.forEach(parkLocationName => addLocation(parkLocationName, parkLocationSelect))
-    renderPark();
+    // renderPark();
     filterButton.addEventListener("click", renderPark);
     parkTypeSelect.addEventListener("change", renderPark);
     parkLocationSelect.addEventListener("change", renderPark);

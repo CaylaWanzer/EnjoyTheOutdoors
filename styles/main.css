@@ -52,7 +52,7 @@ p {
 }
 #homebtn {
     text-align: center;
-    background
+    
     
 }
 .selected {
@@ -77,7 +77,12 @@ p {
     
 }
 #btn {
+
     text-align: center;
+}
+#btn svg {
+    height: 1.7em;
+    
 }
 
 
@@ -102,7 +107,12 @@ p {
     border-radius: 1rem;
 }
 
-
+/* #results2{
+    margin: auto;
+    background-color: rgb(186, 197, 186);
+    width: 600px;
+    border-radius: 1rem;   
+} */
 
 
 /* MOUNTAINS PAGE CSS*/
@@ -127,12 +137,14 @@ p {
     background-color: rgb(186, 197, 186);
     width: 600px;
     border-radius: 1rem;
+    padding: 20px;
 }
 .tips{
     margin: auto;
     background-color: rgb(186, 197, 186);
     width: 800px; 
     border-radius: 1rem;
+    padding: 20px;
 }
 /* .res{
     text-align: center;
@@ -164,4 +176,17 @@ p {
 }
 
 
+/* CONTACT PAGE CSS */
+
+#contact{
+    margin: auto;
+    background-color: rgb(186, 197, 186);
+    width: 600px;
+    border-radius: 1rem;  
+    padding: 20px; 
+}
+#form{
+    border-radius: 0.50rem;
+    padding: 5px;
+}
 
