@@ -68,4 +68,4 @@ The site dynamically updates the list based on user selections, ensuring a smoot
     <li>Explanation of user rights and data handling.</li>
 </ul>
 
-![Privacy Page](./images/)
+![Privacy Page](./images/privacyPage.png)

@@ -117,7 +117,6 @@ p {
 
 /* MOUNTAINS PAGE CSS*/
 
-
 #mntSelect {
     display: flex;
     justify-content: center;
@@ -126,6 +125,7 @@ p {
     margin-bottom: 10px;
     
 }
+
 #mountainSelect{
     
     border-radius: 0.50rem;
@@ -136,14 +136,24 @@ p {
 #results{
     margin: auto;
     background-color: rgb(186, 197, 186);
-    width: 600px;
+    width: 1000px;
     border-radius: 1rem;
     padding: 50px;
+}
+#mntSelect #results{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 1rem;
+}
+#mntSelect #results button{
+    width: fit-content;
+    margin-top: 1rem;
 }
 .tips{
     margin: auto;
     background-color: rgb(186, 197, 186);
-    width: 800px; 
+    width: 1000px; 
     border-radius: 1rem;
     padding: 20px;
 }
@@ -197,7 +207,7 @@ p {
 #block1 {
     margin: auto;
     background-color: rgb(186, 197, 186);
-    width: 1000px;
+    width: 1400px;
     border-radius: 1rem;  
     padding: 20px;  
 }
@@ -211,7 +221,7 @@ p {
 #block3 {
     margin: auto;
     background-color: rgb(186, 197, 186);
-    width: 1000px;
+    width: 1400px;
     border-radius: 1rem;  
     padding: 20px;  
 }
@@ -225,11 +235,18 @@ p {
 #block5 {
     margin: auto;
     background-color: rgb(186, 197, 186);
-    width: 1000px;
+    width: 1400px;
     border-radius: 1rem;  
     padding: 20px;  
 }
 #foot svg{
 
     height: 1.0em;
+}
+#privacy{
+    margin: auto;
+    background-color: rgb(186, 197, 186);
+    width: 1200px;
+    border-radius: 1rem;  
+    padding: 20px;  
 }
